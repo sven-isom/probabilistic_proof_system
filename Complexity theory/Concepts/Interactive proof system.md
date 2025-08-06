@@ -3,6 +3,7 @@ tags:
 Created: 2025-07-30 11:27
 aliases:
   - IP
+  - Interactive proof
 related: 
 link:
 ---
@@ -17,7 +18,12 @@ An interactive proof system for a set $S$ is a two-party game, between a verifie
 
 We denote by $\mathcal{IP}$ the class of sets having interactive proof systems.
 
+> Foundation of Probabilistic Proof
 
+An interactive proof for $L$ is a pair $(P,V)$ s.t.
+1. Completeness: $\forall x\in L$ , $P_r[<P(x),V(x*r)>=1] =1$
+2. Soundness :$\forall x\not\in L \forall \bar{P}$ ,  $\bar{P} _r[<P(x),V(x*r)>=1] \leq \frac{1}{2}$
+3. 
 ## 2 soundness error
 **Soundness error（可靠性误差）**是交互式证明系统（Interactive Proof System）或概率证明系统中的一个重要概念。它描述了在“错误情况下”验证者被欺骗的最大概率。
 
