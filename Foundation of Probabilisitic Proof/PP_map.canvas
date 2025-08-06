@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"a0139e04e97efa6f","type":"text","text":" Public Coin and Private Coin","x":-300,"y":-160,"width":360,"height":60},
+		{"id":"abd2f54b5edf8adc","type":"text","text":"AM\\[K\\] and MA\\[K\\]","x":-300,"y":-40,"width":200,"height":60},
+		{"id":"34929ff107b9a346","type":"text","text":"Perfect Completeness for Public Coins","x":-300,"y":200,"width":360,"height":60},
+		{"id":"9493d1c6bebd0e3c","type":"text","text":"Theorem GNI $\\in$ AM\\[1\\]","x":-300,"y":80,"width":320,"height":60}
+	],
+	"edges":[]
+}

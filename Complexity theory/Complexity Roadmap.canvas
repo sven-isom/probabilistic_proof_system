@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"74f7650e48b0f922","type":"text","text":"Computation Models","x":-360,"y":240,"width":250,"height":60},
+		{"id":"484b7c2ea705703e","type":"text","text":"Computation Models","x":20,"y":240,"width":250,"height":60},
+		{"id":"6178522916d2a228","type":"text","text":"Computation Task","x":-360,"y":80,"width":250,"height":60},
+		{"id":"b3233618c2a61bf1","type":"text","text":"Representation of instance","x":20,"y":80,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"643cf2af8db41bfa","fromNode":"6178522916d2a228","fromSide":"right","toNode":"b3233618c2a61bf1","toSide":"left"},
+		{"id":"1c36601e274b131b","fromNode":"74f7650e48b0f922","fromSide":"right","toNode":"484b7c2ea705703e","toSide":"left"}
+	]
+}
