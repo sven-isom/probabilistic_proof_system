@@ -13,12 +13,13 @@ Status:
 #question 
 1. Again, Does every complexity class have a complete problem?
 
----
-Question
+#todo Check P85 in Oded
+Sounds like the complexity class is a group, and the complete problem are like normal subgroup kind of things.
 
-What does the lecturer mean by: They are not linear polynomials while thery are linear in the monimials x_i times x_j
+#question 
+What does the lecturer mean by: They are not linear polynomials while they are linear in the monimials $x_i$ times $x_j$
 
-Answer
+Answered
 
 What your lecturer means can be unpacked like this:
 
@@ -26,12 +27,12 @@ What your lecturer means can be unpacked like this:
 
 A **linear polynomial** means a polynomial where each term is degree ≤ 1 in the variables — e.g.
 
-a1x1+a2x2+⋯+anxn+ca_1 x_1 + a_2 x_2 + \cdots + a_n x_n + c
+$a_1x_1+a_2x_2+⋯+a_nx_n+ca_1 x_1 + a_2 x_2 + \cdots + a_n x_n + c$
 
-No products of variables appear.  
+No products of variables appear. 
 So something like
 
-x1x2+x3x_1 x_2 + x_3
+$x_1x_2+x_3x_1 x_2 + x_3$
 
 is **not** linear in the variables x1,x2,x3x_1, x_2, x_3 — because x1x2x_1 x_2 is a degree-2 term.
 

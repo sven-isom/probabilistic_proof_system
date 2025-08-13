@@ -6,9 +6,16 @@ related:
 link: 
 Type:
 ---
-## 1 Questions
+## 1 Summary
 
-### 1.1 Q1
+
+An important method is introduced here:
+- Low-Degree Extention
+- 
+
+## 2 Questions
+
+### 2.1 Q1
 #question 
 Why should we reduce small language to some instacne of hard language, some sort of Tiny [[TQBF]].
 
@@ -54,7 +61,7 @@ If you want, I can give you a concrete example showing how a _small_ language (s
 Do you want me to give that example in the style used in **IP = PSPACE** proofs?
 
 
-### 1.2 Q2
+### 2.2 Q2
 
 in the lecture 06, the lecture wants to show that honest prove is in a bad condition by saying that one honest prover can now run in big Omega (2^n). My question is, does the time complexity for prover here mean that even the prover is honest(like he knew the right assignment to some kind of circuit, he still need a lot of time to generate the proof?
 

@@ -10,7 +10,7 @@ link:
 **Definition 6.2** (the class $\mathcal{BPP}$): *A [[Decision Problem|decision problem]] $S$ is in $\mathcal{BPP}$ if there exists a probabilistic polynomial-time algorithm $A$ such that for every $x \in S$ it holds that $\Pr[A(x) = 1] \geq 2/3$ and for every $x \notin S$ it holds that $\Pr[A(x) = 0] \geq 2/3$.*
 
 
-## 1 Definition of BPP\mathbf{BPP}
+## 1 Definition of BPP
 
 BPP stands for **Bounded-Error Probabilistic Polynomial-Time**.
 
@@ -30,9 +30,8 @@ Here:
     
 
 **Equivalently**:  
-BPP\mathbf{BPP} is the class of decision problems solvable in polynomial time by a randomized algorithm whose error probability is bounded away from 1/21/2 for all inputs.
+$\mathbf{BPP}$ is the class of decision problems solvable in polynomial time by a randomized algorithm whose error probability is bounded away from 1/21/2 for all inputs.
 
----
 
 ## 2 Intuition
 
@@ -83,23 +82,15 @@ You can make the error probability exponentially small (2−n2^{-n}) by running 
 
 ### 3.3 Example 3 — **Monte Carlo approximation of counting problems**
 
-- Suppose you want to estimate the size of a huge set S⊆{0,1}nS \subseteq \{0,1\}^n defined by some predicate.
-    
-- You can sample uniformly from the domain, check the predicate, and use the fraction of successes to estimate ∣S∣|S|.
-    
+- Suppose you want to estimate the size of a huge set $S \subseteq \{0,1\}^n$ defined by some predicate.
+ 
+- You can sample uniformly from the domain, check the predicate, and use the fraction of successes to estimate |S|.
+
 - If the predicate can be evaluated in polynomial time, this falls into BPP.
-    
-
----
-
 ## 4 Quick hierarchy note
 
 We have:
 
-P⊆BPP⊆P#P\mathbf{P} \subseteq \mathbf{BPP} \subseteq \mathbf{P^{\#P}}
+$\mathbf{P} \subseteq \mathbf{BPP} \subseteq \mathbf{P^{\#P}} \subseteq IP$
 
 And it is widely believed that P=BPP\mathbf{P} = \mathbf{BPP}, because most natural randomized algorithms are thought to have deterministic polynomial-time equivalents (derandomization conjecture).
-
----
-
-If you’d like, I can also give **a visual example of how the 2/3 vs 1/3 gap is amplified** to exponentially small error — this is the core trick used in both BPP and interactive proofs. Would you like me to do that?

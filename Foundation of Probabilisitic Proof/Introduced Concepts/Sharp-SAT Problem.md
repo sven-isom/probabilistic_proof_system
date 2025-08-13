@@ -23,3 +23,8 @@ $$
 \#SAT is a well-known example of the class of counting problems, known as **#P-complete** (read as sharp P complete). 
 In other words, every instance of a problem in the complexity class \#P can be reduced to an instance of the \#SAT problem. 
 This is an important result because many difficult counting problems arise in Enumerative Combinatorics, Statistical physics, Network Reliability, and Artificial intelligence without any known formula. If a problem is shown to be hard, then it provides a complexity theoretic explanation for the lack of nice looking formulas.
+
+
+#question 
+1. What is p to sharp p($p^{\#p}$ )
+2. 
