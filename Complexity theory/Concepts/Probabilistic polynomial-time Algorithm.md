@@ -28,6 +28,7 @@ A **probabilistic polynomial-time algorithm**（概率多项式时间算法，�
 3. **概率保证**  
    通常，算法的正确性或性能以概率方式描述。例如，$\mathcal{BPP}$ 类问题要求算法对每个输入以至少 $2/3$ 的概率给出正确答案。
 
+
 ---
 
 ### 0.3 举例
@@ -48,3 +49,4 @@ A **probabilistic polynomial-time algorithm**（概率多项式时间算法，�
 ### 0.5 总结
 
 **Probabilistic polynomial-time algorithm** 是指在多项式时间内运行、并在计算过程中使用随机性的算法。它们在理论和实际应用中都非常重要，尤其是在处理难以用确定性算法高效解决的问题时。
+

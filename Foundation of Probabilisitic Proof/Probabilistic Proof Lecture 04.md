@@ -187,7 +187,7 @@ and
 $$
 \forall y \exists z \quad \neg \phi(x,y,z).
 $$
-##### 3.1.3.2 what is Repetition and Majority
+##### 3.1.3.2 What is Repetition and Majority
 
 A standard technique used to reduce the error probability of a probabilistic algorithm or interactive proof.
 

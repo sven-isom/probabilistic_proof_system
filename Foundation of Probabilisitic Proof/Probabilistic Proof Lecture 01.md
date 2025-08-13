@@ -71,7 +71,7 @@ randomness
 
 ### 4.1 related theorem 
 
-IP $\subseteq$ [[PSpace|PSPACE]] 
+IP $\subseteq$ [[02_Area/0205 Cryptography密码学/2025S2-MATH8702/Complexity theory/Concepts/PSPACE|PSPACE]] 
 
 Let L $\in$ IP, and let $(P,V)$ be an IP for L,
 We need to show that L $\in$  PSPACE
